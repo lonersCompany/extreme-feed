@@ -1,0 +1,34 @@
+<header
+  class="flex-col md:flex-row fixed w-full flex top-0 z-50 pt-4 pb-8 px-4"
+  role="banner"
+>
+  <div class="w-full md:w-1/3">
+    <a
+      class="text-2xl text-semibold text-gray-600"
+      href="{{ site.baseurl }}/"
+      alt="go to homepage"
+    >
+      <img
+        class="inline w-32"
+        src="https://res.cloudinary.com/dhxmg9p4i/image/upload/v1577544482/pahyl/logo.svg"
+        alt=""
+    /></a>
+  </div>
+  <div class="page-title w-full md:w-1/3 md:text-center">
+    {% if page.location %}
+    <a href="{{site.baseurl}}/projekty" class="text-2xl text-semibold">
+      {{ page.location }}
+      <span>✗</span>
+    </a>
+    <!-- {% include navigation.html navigation=item.subitems %} -->
+    {% endif %}
+  </div>
+  <div class="fixed md:w-1/3 md:text-right right-0 mx-4">
+    <button id="main-nav__button" class="nav-hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+  </div>
+</header>
+{% include nav.html navigation=site.data.navigation %}
