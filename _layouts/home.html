@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<section class="bg-gray-200 relative">
+<section class="bg-gray-200 relative ">
   {%- include image-cover.html src="/v1577540969/pahyl/pahyl22-2.jpg" -%}
 
-  <div class="absolute inset-0 flex justify-center px-4">
+  <div class="absolute inset-0 flex justify-center px-4 ">
     <div class="cursor-pointer block self-center" href="">
       <div class="text-xl text-red-500 font-medium">
         <span>Nový film 2020</span>
@@ -21,17 +21,17 @@ layout: default
         </span>
       </div>
 
-      <div class="text-center my-10 text-4xl">
+      <!-- <div class="text-center my-10 text-4xl">
         <span class="bg-red-500 px-5 py-3 hover:bg-red-900 rounded-full"
           >▶</span
         >
-      </div>
+      </div> -->
       <div class="block cursor-pointer text-sm"></div>
     </div>
   </div>
 </section>
-<section>
-  <div class="max-w-xl text-2xl mx-auto py-32 px-4 text-block">
+<section id="o-me">
+  <div class="max-w-xl text-2xl mx-auto pt-16 pb-32 px-4 text-block">
     <div class="text-center pb-24">
       <img
         class="inline w-64"
@@ -46,14 +46,14 @@ layout: default
       natočili film v kanadě a chystáme se na další.
     </div>
 
-    <div class="mt-8">
+    <!-- <div class="mt-8">
       <a
         class="cursor-pointer text-center lg:text-2xl py-2 px-2 border-green-500 text-green-500 hover:bg-green-900 border-2 rounded-lg shadow-md"
         href=""
       >
         Podpořit film 🤟
       </a>
-    </div>
+    </div> -->
   </div>
 </section>
 
@@ -63,8 +63,8 @@ layout: default
   </div>
 </section>
 
-<section class="py-32">
-  <div class="flex flex-col md:flex-row max-w-xl mx-auto">
+<section id="kontakt" class="py-32">
+  <div class="flex flex-col md:flex-row max-w-2xl mx-auto">
     <div class="w-1/2">
       <div class="text-3xl mb-4">
         Kdyby cokoliv napiš nebo zavojel 👋
@@ -73,21 +73,21 @@ layout: default
       <div>
         <a class="text-red-500 text-2xl" href="">Facebook</a>
       </div>
-      <div>
-        <a class="text-red-500 text-2xl mb-4" href="">Instagram</a>
+      <div class="mb-10">
+        <a class="text-red-500 text-2xl " href="">Instagram</a>
       </div>
 
       <div class="text-gray-600">
         Telefon
       </div>
       <div class="mb-4">
-        +420 777 967 627
+        {{site.phone}}
       </div>
       <div class="text-gray-600">
         Email
       </div>
       <div class="mb-4">
-        danielbarak@neco.com
+        {{site.email}}
       </div>
     </div>
     <div class="w-1/2">
@@ -96,9 +96,9 @@ layout: default
   </div>
 </section>
 
-<section class="bg-black">
+<section id="sponzori" class="bg-black">
   <div class="max-w-xl text-2xl mx-auto py-32 px-4 text-block">
-    <div>
+    <div class="mb-10">
       Dějuki všem, kteří podporují moje sny! 🙏
     </div>
     <div class="px-4">

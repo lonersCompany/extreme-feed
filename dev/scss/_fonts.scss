@@ -3,9 +3,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/extreme-feed/assets/font-files/Inter-Regular.woff2")
-      format("woff2"),
-    url("/extreme-feed/assets/font-files/Inter-Regular.woff") format("woff");
+  src: url("/assets/font-files/Inter-Regular.woff2") format("woff2"),
+    url("/assets/font-files/Inter-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -13,8 +12,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/extreme-feed/assets/font-files/Inter-Medium.woff2") format("woff2"),
-    url("/extreme-feed/assets/font-files/Inter-Medium.woff") format("woff");
+  src: url("/assets/font-files/Inter-Medium.woff2") format("woff2"),
+    url("/assets/font-files/Inter-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -22,8 +21,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/extreme-feed/assets/font-files/PermanentMarker-Regular.woff2")
-      format("woff2"),
-    url("/extreme-feed/assets/font-files/PermanentMarker-Regular.woff")
-      format("woff");
+  src: url("/assets/font-files/PermanentMarker-Regular.woff2") format("woff2"),
+    url("/assets/font-files/PermanentMarker-Regular.woff") format("woff");
 }

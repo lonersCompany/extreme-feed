@@ -1,8 +1,7 @@
 # specify main menu items here
-
-# - text: Projekty
-#   url: /projekty
-# - text: O nás
-#   url: /o-nas
-# - text: Kontakt
-#   url: /kontakt
+- text: O mě
+  url: "#o-me"
+- text: Kontakt
+  url: "#kontakt"
+- text: Sponzoři
+  url: "#sponzori"
