@@ -6,6 +6,6 @@ images:
 - path: "/v1577541584/pahyl/pahyl22-3.jpg"
 sponsors:
 - path: "/v1577544482/pahyl/logo.svg"
-- path: pahyl/v1577557509/pahyl/adapted.jpg
+- path: "/v1577549557/pahyl/flag.png"
 
 ---
