@@ -10,7 +10,7 @@ sponsors:
 - path: "/v1580561940/pahyl/WOC-1R_xpxrhd.png"
   title: ''
 - path: "/v1580561897/pahyl/KT-black_faol1e.png"
-  title: ''
+  title: Konopný táta
 - path: "/v1577544482/pahyl/logo.svg"
   title: pahyl
 
